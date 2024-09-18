@@ -5,14 +5,14 @@ public class As_7_Task_3_a {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter N: ");
+        System.out.println("Enter N : ");
         int ak = scan.nextInt();
 
         int[] ar_1 = new int[ak];
         int[] ar_2 = new int[ak];
 
         for (int i = 0; i < ak; i++) {
-            System.out.println("Enter value for index " + i + ": ");
+            System.out.println("Enter index " + i + ": ");
             ar_1[i] = scan.nextInt();
         }
 
